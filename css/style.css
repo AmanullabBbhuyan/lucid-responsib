@@ -1,0 +1,567 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+/* gohubProject css code start here */
+.header-section{
+	width: 100%;
+	background: url(../img/benner.png) center top no-repeat;
+	background-size: cover;
+}
+.manu-setion{
+    width: 100%;
+}
+.manu-setion .bg-light{
+    background: transparent !important;
+}
+.manu-setion .bg-light .mr-auto{
+	margin-left: auto;
+}
+.manu-setion .navbar-light .navbar-nav .nav-link.active{
+    color: #fff;
+    background: url(../img/hr.png) center bottom no-repeat;
+}
+.manu-setion .navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0px 0px 0px 10px;
+}
+.manu-setion .navbar-light .navbar-nav .nav-link:hover, .manu-setion .navbar-light .navbar-nav .nav-link:focus{
+    color: #fff;
+    background: url(../img/hr.png) center bottom no-repeat;
+}
+/* banner section coding start here */
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner .inner-banner{
+    width: 100%;
+    padding: 40px 0px;
+}
+.banner .inner-banner h6{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #0b5a88;
+    letter-spacing: 2px;
+}
+.banner .inner-banner h2{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #fff;
+    margin: 15px 0px 45px;
+}
+.banner .inner-banner p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #999999;
+}
+ .inner-buttom{
+    width: 100%;
+    padding: 25px 0px;
+}
+.banner .inner-buttom .btn-primary{
+    padding: 12px 35px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 5px;
+    transition: 1s ease-in;
+    letter-spacing: 2px;
+}
+.banner .inner-buttom .btn-primary:hover, .banner .inner-buttom .btn-primary:focus{
+    background: transparent;
+    border: 1px solid #008ed6;
+    color: #fff;
+}
+.banner .inner-buttom .btn-light{
+    padding: 12px 35px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #008ed6;
+    border-radius: 5px;
+    transition: 1s ease-in;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+.banner .inner-buttom .btn-light:hover, .banner .inner-buttom .btn-light:focus{
+    background: transparent;
+    border: 1px solid #008ed6;
+    color: #008ed6;
+}
+/* futrure sercton sstart  */
+.fearture{
+    width: 100%;
+    padding: 80px 0px;
+}
+.fearture .title{
+    width: 100%;
+    padding: 0px 0px 40px;
+}
+.fearture .title h6{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #0b5a88;
+}
+.fearture .title h2{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #000;
+    margin: 5px 0px 25px;
+}
+.inner-feature{
+    width: 100%;
+    padding: 40px 30px;
+    text-align: center ;
+}
+.inner-feature .inner-circle{
+    width: 95px;
+    height: 95px;
+    line-height: 95px;
+    border-radius: 100%;
+    margin: 0px auto 20px;
+    text-align: center;
+    border: 1px solid #999999;
+}
+.inner-feature h6{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+.inner-feature p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #999999;
+}
+/* futrure sercton end  */
+
+/* About long section start */
+
+.about-long{
+    width: 100%;
+    padding: 80px 0px;
+    border-top: 1px solid#eee;
+}
+.about-long .title{
+    width: 100%;
+    padding: 40px 0px 40px;
+}
+.about-long .title h6{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #0b5a88;
+}
+.about-long .title h2{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #000;
+    margin: 5px 0px 25px;
+}
+.content{
+    width: 100%;
+}
+.content p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #999;
+}
+.content .icons{
+    font-size: 14px;
+    line-height: 35px;
+    font-weight: 600;
+    color: #000;
+}
+.content .icons img{
+    margin: 0px 15px 0px 0px;
+}
+/* About long section end */
+
+/* About short section start here */
+
+.about-short{
+    width: 100%;
+    background: #f2f2f2;
+}
+.about-short .title{
+    width: 100%;
+    padding: 80px 0px ;
+}
+.about-short .title h6{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #0b5a88;
+}
+.about-short .title h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #000;
+    margin: 5px 0px 25px;
+}
+.about-short .title p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #999;
+}
+.iphone{
+    width: 100%;
+}
+.iphone img{
+    width: 95%;
+    padding: 30px 0px 0px;
+}
+/* About short section end here */
+/* Testimonial section start here */
+
+.Testimonial{
+	width: 100%;
+	background: url(../img/back.png) center top no-repeat;
+	background-size: cover;
+}
+.Testimonial .title{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+}
+.Testimonial .title h6{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #0b5a88;
+}
+.Testimonial .title h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #fff;
+}
+.Testimonial .owl-carousel{
+    width: 100%;
+    padding: 40px 0px;
+}
+.Testimonial .owl-carousel .item h4 {
+    font-size: 27px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 37px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+.Testimonial .owl-carousel .owl-item img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.Testimonial .owl-carousel .card {
+    word-wrap: break-word;
+    background-color: transparent;
+    border: none;
+    border-radius: .25rem;
+    margin-top: 50px;
+}
+.Testimonial .owl-carousel .card-title {
+    margin-top: 5;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 24px;
+}
+.Testimonial .owl-carousel .text-muted {
+    color: #fff !important;
+    text-transform: uppercase;
+}
+.Testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 23px;
+    margin-bottom: 50px;
+}
+/* Testimonial section end here */
+/* trotokal-section section start here */
+.trotokal-section{
+    width: 100%;
+    padding: 40px 0px;
+    background: #000;
+}
+.proto-title{
+    width: 100%;
+}
+.proto-title h2{
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #fff;
+}
+.proto-title h2 span{
+    font-weight: 400;
+    color: #fff;
+}
+.trotokal-section .inner-buttom{
+    width: 100%;
+    padding: 5px 0px 0px 100px;
+}
+.trotokal-section .inner-buttom .btn-primary{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 5px;
+    transition: 1s ease-in;
+    letter-spacing: 2px;
+}
+.trotokal-section .inner-buttom .btn-primary:hover, .trotokal-section .inner-buttom .btn-primary:focus{
+    background: transparent;
+    border: 1px solid #008ed6;
+    color: #fff;
+}
+.trotokal-section .inner-buttom .btn-light{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #008ed6;
+    border-radius: 5px;
+    transition: 1s ease-in;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+.trotokal-section .inner-buttom .btn-light:hover, .trotokal-section .inner-buttom .btn-light:focus{
+    background: transparent;
+    border: 1px solid #008ed6;
+    color: #008ed6;
+}
+/* trotokal-section section end here */
+/* priching-section section start here */
+.priching-section{
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+.priching-section .title h6{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #0b5a88;
+}
+.priching-section .title h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #000;
+    margin: 5px 0px 25px;
+}
+.inner-pricing{
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    text-align: center;
+}
+.inner-pricing .price-head{
+    width: 100%;
+    padding: 15px 0px;
+    border-bottom: 1px solid #eee;
+}
+.inner-pricing .price-head h4{
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: #000;
+}
+.inner-pricing .prises{
+    width: 100%;
+    padding: 30px 0px;
+    border-bottom: 1px solid #eee;
+}
+.inner-pricing .prises h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    color: #000;
+}
+.inner-pricing .prises h1 sup{
+    top: -0.4em;
+    font-size: 36px;
+    font-weight: 400;
+}
+.inner-pricing .prises p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #999;
+    margin: -8px 0px 0px;
+}
+.inner-pricing .price-body{
+    width: 100%;
+    padding: 40px 37px;
+}
+.inner-pricing .price-body p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #999;
+    margin: -8px 0px 30px;
+}
+.inner-pricing .price-body p a{
+    text-decoration: none;
+    color: #008ed6;
+}
+.inner-pricing .price-body .btn-info{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #008ed6;
+    background: transparent;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    transition: 1s ease-in;
+    letter-spacing: 1px;
+}
+.inner-pricing:hover .price-body .btn-info, .inner-pricing .price-body .btn-info:focus{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    color: #fff;
+}
+.inner-pricing:hover .price-head h4{
+    color: #008ed6;
+}
+.inner-pricing:hover .prises{
+    background: #008ed6;
+    color: #fff;
+}
+.inner-pricing:hover .prises h1, .inner-pricing:hover .prises h1 sup, .inner-pricing:hover, .prises p {
+    color: #fff;
+}
+/* priching-section section end here */
+/* contucts-us section start here */
+.contuct-us{
+    width: 100%;
+    padding: 30px 0px 0px;
+    background: #ededed;
+}
+.contuct-us .title{
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+.contuct-us .title h6{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #0b5a88;
+}
+.contuct-us .title h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000;
+    margin: 5px 0px 15px;
+}
+.inner-contuct{
+    width: 100%;
+    text-align: center ;
+    padding: 20px 0px;
+}
+.inner-contuct i{
+    font-size: 30px;
+    margin: 0px 0px 20px;
+    color: #0b5a88;
+}
+.inner-contuct p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #b4b4b4;
+    line-height: 24px;
+}
+.main-form{
+    width: 70%;
+    margin: 0px auto -100px;
+    padding: 80px 70px 60px;
+    background: #15141a;
+    position: relative;
+    z-index: 1;
+}
+.text-right{
+    text-align: right;
+}
+.main-form .form-control{
+    padding: 12px;
+    height: auto;
+    background: transparent;
+    border: 1px solid#333;
+    color: #333;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase
+}
+.main-form textarea.form-control{
+    height: 190px;
+}
+.main-form .btn-info{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 5px;
+    transition: 1s ease-in;
+    letter-spacing: 1px;
+}
+.main-form .btn-info:hover, .main-form .btn-info:focus{
+    background: transparent;
+    border: 1px solid #008ed6;
+    color: #008ed6;
+}
+.map{
+    position: absolute;
+    width: 100%;
+}
+/* contucts-us section end here */
